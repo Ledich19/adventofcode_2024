@@ -90,7 +90,6 @@ pub fn run() {
     match file_reader::read_file_lines("./src/data/04.txt") {
         Ok(lines) => {
             let char_arrays = split_lines_into_char_arrays(lines);
-            // println!("{:?}", char_arrays);
             amount += check_horizontal(&char_arrays, &found_pattern);
             amount += check_vertical(&char_arrays, &found_pattern);
             amount += check_diagonals(&char_arrays, &found_pattern);
