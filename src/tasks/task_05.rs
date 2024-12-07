@@ -53,7 +53,7 @@ fn sort_pages_by_rules(mut pages: Vec<i32>, rules: &[(i32, i32)]) -> Vec<i32> {
 
     pages
 }
-
+#[allow(dead_code)]
 pub fn run() {
     let mut amount_1 = 0;
     let mut amount_2 = 0;

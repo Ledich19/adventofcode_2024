@@ -214,10 +214,11 @@ fn find_obstructions(field: &Vec<Vec<char>>, visited_field: &Vec<Vec<char>>) -> 
 
     valid_obstructions
 }
-
+#[allow(dead_code)]
 pub fn run() {
     let mut amount_1 = 0;
     let mut amount_2 = 0;
+    #[allow(unused_assignments)]
     let mut copy_field: Vec<Vec<char>> = Vec::new();
 
     match file_reader::read_file_to_array_of_arrays_by_char("./src/data/06.txt") {

@@ -30,7 +30,7 @@ fn check_x_mas(char_arrays: &Vec<Vec<char>>, row: usize, col: usize) -> i32 {
 
     1
 }
-
+#[allow(dead_code)]
 pub fn run() {
     let mut amount = 0;
 

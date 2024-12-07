@@ -1,6 +1,6 @@
 use crate::utils::file_reader;
 use regex::Regex;
-
+#[allow(dead_code)]
 fn do_multiple(data: &str) -> i32 {
     let re = Regex::new(r"mul\((\d+),(\d+)\)").unwrap();
     if let Some(captures) = re.captures(&data) {
@@ -11,7 +11,7 @@ fn do_multiple(data: &str) -> i32 {
         return 0;
     }
 }
-
+#[allow(dead_code)]
 pub fn run() {
     let mut result = 0;
 

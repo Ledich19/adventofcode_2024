@@ -1,12 +1,12 @@
 use crate::utils::file_reader;
-
+#[allow(dead_code)]
 fn split_lines_into_char_arrays(lines: Vec<String>) -> Vec<Vec<char>> {
     lines
         .into_iter()
         .map(|line| line.chars().collect())
         .collect()
 }
-
+#[allow(dead_code)]
 fn check_horizontal(char_arrays: &Vec<Vec<char>>, found_pattern: &Vec<char>) -> usize {
     let mut amount = 0;
 
@@ -25,6 +25,7 @@ fn check_horizontal(char_arrays: &Vec<Vec<char>>, found_pattern: &Vec<char>) -> 
     }
     amount
 }
+#[allow(dead_code)]
 fn check_vertical(char_arrays: &Vec<Vec<char>>, found_pattern: &Vec<char>) -> usize {
     let mut amount = 0;
 
@@ -46,7 +47,7 @@ fn check_vertical(char_arrays: &Vec<Vec<char>>, found_pattern: &Vec<char>) -> us
 
     amount
 }
-
+#[allow(dead_code)]
 fn check_diagonals(char_arrays: &Vec<Vec<char>>, found_pattern: &Vec<char>) -> usize {
     let mut amount = 0;
 
@@ -82,7 +83,7 @@ fn check_diagonals(char_arrays: &Vec<Vec<char>>, found_pattern: &Vec<char>) -> u
 
     amount
 }
-
+#[allow(dead_code)]
 pub fn run() {
     let mut amount = 0;
     let found_pattern = vec!['X', 'M', 'A', 'S'];
