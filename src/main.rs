@@ -8,6 +8,8 @@ fn main() {
     // tasks::task_04_2::run();
     // tasks::task_05::run();
     // tasks::task_06::run();
-    tasks::task_07_1::run();
-    tasks::task_07_2::run();
+    // tasks::task_07_1::run();
+    // tasks::task_07_2::run();
+    tasks::task_08_1::run();
+    tasks::task_08_2::run();
 }
