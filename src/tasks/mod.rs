@@ -8,3 +8,5 @@ pub mod task_07_1;
 pub mod task_07_2;
 pub mod task_08_1;
 pub mod task_08_2;
+pub mod task_09_1;
+pub mod task_09_2;

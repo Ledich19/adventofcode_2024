@@ -10,6 +10,8 @@ fn main() {
     // tasks::task_06::run();
     // tasks::task_07_1::run();
     // tasks::task_07_2::run();
-    tasks::task_08_1::run();
-    tasks::task_08_2::run();
+    // tasks::task_08_1::run();
+    // tasks::task_08_2::run();
+    // tasks::task_09_1::run();
+    tasks::task_09_2::run();
 }
