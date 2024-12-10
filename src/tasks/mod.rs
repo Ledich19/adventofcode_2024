@@ -10,3 +10,5 @@ pub mod task_08_1;
 pub mod task_08_2;
 pub mod task_09_1;
 pub mod task_09_2;
+pub mod task_10_1;
+pub mod task_10_2;
