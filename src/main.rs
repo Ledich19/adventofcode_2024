@@ -15,5 +15,6 @@ fn main() {
     // tasks::task_09_1::run();
     // tasks::task_09_2::run();
     // tasks::task_10_1::run();
-    tasks::task_10_2::run();
+    // tasks::task_10_2::run();
+    tasks::task_11_1::run();
 }
